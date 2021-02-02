@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar core-back-button>
+        <ion-title>Jangukids</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div text-wrap text-center margin-top>
+        <img *ngIf="!logoUrl" src="assets/img/login_logo.png" role="presentation">
+
+        <h5 style="color: #3D9BDD;">You are logged out, click the button below to log back in. </h5>
+        
+        <button margin-top block ion-button (click)="add()" [attr.aria-label]="'core.add' | translate">
+            Proceed to Login
+        </button>
+
+    </div>
+</ion-content>
