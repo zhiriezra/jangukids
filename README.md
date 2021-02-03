@@ -2,6 +2,7 @@
 =================
 
 This is a custom moodle mobile app repository adapted from the official Moodle Mobile app.
+Interface modified!
 
 
 License
